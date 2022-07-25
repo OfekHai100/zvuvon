@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-25T20:17:05.700Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 OPR/89.0.4447.48" etag="WbMNHV-pY6LMe_tI0pxO" version="20.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-25T20:21:51.255Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 OPR/89.0.4447.48" etag="KTNIMW-HaEUbn63xQ7Aw" version="20.2.0" type="github">
   <diagram id="0WaNPy5pK7mS43hr-lsQ" name="Page-1">
     <mxGraphModel dx="1910" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -84,7 +84,7 @@
         <mxCell id="HXMie4wQHW-zztBsliJs-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HXMie4wQHW-zztBsliJs-31" target="HXMie4wQHW-zztBsliJs-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HXMie4wQHW-zztBsliJs-31" value="Application" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="HXMie4wQHW-zztBsliJs-31" value="Application&lt;br&gt;Console" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="-80" y="300" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="HXMie4wQHW-zztBsliJs-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HXMie4wQHW-zztBsliJs-34" target="HXMie4wQHW-zztBsliJs-31">
@@ -106,6 +106,12 @@
         </mxCell>
         <mxCell id="HXMie4wQHW-zztBsliJs-36" value="soldier client" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="-210" y="390" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HXMie4wQHW-zztBsliJs-41" value="SQL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="625" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HXMie4wQHW-zztBsliJs-42" value="SQL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="625" y="350" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
