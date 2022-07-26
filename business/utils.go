@@ -1,7 +1,6 @@
 package business
 
 import (
-	"errors"
 	"math"
 )
 
@@ -47,16 +46,5 @@ func getMaxHeight(velocity float64, height float64, angle float64) float64 {
 }
 
 func getFallDuration(maxHeight float64) float64 {
-	return getQuadraticEquationResults(gravityAcceleration/2, 0, maxHeight)
-}
-
-func validateInput(velocity float64, height float64, angle float64) error {
-	if velocity > 0 && height >= 0 && angle <= 90 && angle >= 0 {
-		if angle == 0 && height == 0 {
-			return errors.New("bad input: angle cannot be 0 degrees while height is 0 meters (and vice versa)")
-		}
-		return nil
-	}
-
-	return errors.New("bad input: velocity should be positive, height should be 0 or above, and angle should be min 0 and max 90 degrees")
+	return math.Sqrt(maxHeight * (-1) * 2 / gravityAcceleration)
 }
