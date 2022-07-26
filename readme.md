@@ -17,7 +17,7 @@
 
 **שלב 2**
 
-4. ![image](https://user-images.githubusercontent.com/109989325/181089524-de7f18b1-a9d7-47e2-97af-bed3d046590c.png)
+4. ![Stage 2 - data flow architecture drawio (1)](https://user-images.githubusercontent.com/109989325/181122554-2030187d-dad8-48df-87b4-441cffe50f9c.png)
 
 7. יהיה ניתן להגן על המערכת על ידי:
 
